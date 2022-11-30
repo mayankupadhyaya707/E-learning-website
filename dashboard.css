@@ -1,0 +1,233 @@
+ .panel h2{
+    color:#640e0e;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -78px;
+    margin-bottom: 18px;
+}
+.panel img{
+    height: 82px;
+    width: 281px;
+    margin-left: 19px;
+    
+}
+
+.panel
+{
+
+
+border-style: ridge;
+border-color: brown;
+background: linear-gradient(to right top,wheat,#d2b7e5,pink);
+border-width: 2px;
+
+}
+.navbar
+{
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("project_image/white-abstract-background_23-2148810113.webp");
+    
+}
+ .navbar a{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 23px;
+    color:black;
+    font-weight: 500;
+    text-decoration: underline 2px;
+    text-decoration-color: black;
+}
+ .navbar a:hover{
+    color: red;
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+.home button{
+    height: 52PX;
+    width: 165PX;
+    font-size: 15px;
+    font-weight: 501;
+    border-radius: 50px;
+    margin-left: -78px;
+    border-style: inset;
+    border-color: black;
+    margin-top: 27px;
+    background-color: wheat;
+    padding-top: 7px;
+    color: purple;
+    
+    
+    }
+.home{
+    min-height: 70vh;
+    
+    background-image: url("project_image/white-abstract-background_23-2148810113.webp");
+    /* background:linear-gradient(to right top,wheat,rgb(238, 238, 156),white); */
+    background-size: cover;
+
+    opacity: 50;
+
+}
+.home .box-container .box{
+    padding: 5rem;
+    /* text-align: center; */
+    border: var(--border);
+
+    height: 0px;
+    width: 4px;
+    margin-left: 21px;
+}
+
+.home  h3{
+    font-size: 40px;
+    text-align: center;
+    color:red;
+    padding-top: 40px;
+      
+}
+.home .box-container{
+   
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 5.5rem;
+    padding-left: 23px;
+    padding-top: 43px;
+    padding-right: 58px;
+}
+
+
+.home .box-container .box img{
+    height: 152px;
+    width: 153px;
+    margin-left: -85px;
+    margin-top: -76px;
+    margin-right: 21px;
+    border-radius: 65px;
+    margin-left: -75px;
+    border-radius: 10%;
+}
+
+.home .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: black;
+    font-size: 16px;
+    padding: 4rem 0;
+    margin-left: -37px;
+    
+}
+
+.home .box-container .box:hover > *
+{
+    color:var(--black);
+}
+.btn1
+{
+        width: 120px;
+        height: 41px;
+        margin-top: 12px;
+        font-weight: 501;
+        cursor: pointer;
+        margin-bottom: 82px;
+        margin-left: -120px;
+        margin-top: -66px;
+        font-size: 29px;
+        color: blue;
+        float: right;
+}
+.btn{
+    margin-top: 5rem;
+    display: inline-block;
+    padding: -5.2rem 3rem;
+    font-size: 1.7rem;
+    color:black;
+    background: var(--main-color);
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: -50px;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+ 
+
+.about button{
+    height: 52PX;
+    width: 165PX;
+    font-size: 15px;
+    font-weight: 501;
+    border-radius: 50px;
+    margin-left: -78px;
+    border-style: inset;
+    border-color: black;
+    margin-top: 27px;
+    background-color: wheat;
+    padding-top: 7px;
+    color: purple;
+    
+    
+    }
+.about{
+    min-height: 70vh;
+    
+    background-image: url("project_image/white-abstract-background_23-2148810113.webp");
+    /* background:linear-gradient(to right top,wheat,rgb(238, 238, 156),white); */
+    background-size: cover;
+
+    opacity: 50;
+
+}
+.about .box-container .box{
+    padding: 5rem;
+    /* text-align: center; */
+    border: var(--border);
+
+    height: 0px;
+    width: 4px;
+    margin-left: 21px;
+}
+
+.about  h3{
+    font-size: 40px;
+    text-align: center;
+    color:red;
+    padding-top: 40px;
+      
+}
+.about .box-container{
+   
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 8.5rem;
+    padding-left: 97px;
+    padding-top: 43px;
+    padding-right: 58px;
+}
+
+
+.about .box-container .box img{
+    height: 152px;
+    width: 153px;
+    margin-left: -85px;
+    margin-top: -76px;
+    margin-right: 21px;
+    border-radius: 65px;
+    margin-left: -75px;
+    border-radius: 10%;
+}
+
+.about .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: black;
+    font-size: 16px;
+    padding: 4rem 0;
+    margin-left: -37px;
+    
+}

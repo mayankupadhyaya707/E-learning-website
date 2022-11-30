@@ -1,0 +1,129 @@
+ /* h2{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+  } */
+   .content1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    cursor: pointer;
+  }
+   .content1 .card{
+  
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+   .content1 .card i{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 3em;
+    color: teal;
+    line-height: 100px;
+  }
+   .content1 .card img{
+    width: 100%;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+}
+ .content1 .card h3{
+  font-size: 21px;
+  letter-spacing: 0px;
+  color: firebrick;;
+}
+.content1 .card h4{
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: grey;
+  }
+ .content1 .card p{
+  color:crimson;
+  margin: 10px 0;
+  font-size: 13px;
+  margin-top: -2px;
+}
+ .content1 .card.circle img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  border: 3px solid #888;
+  display: block;
+  object-fit: cover;
+}
+ .content1 .card .circle h3
+{
+    color: teal;
+}
+
+
+.content2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    cursor: pointer;
+  }
+   .content2 .card{
+  
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+   .content2 .card i{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 3em;
+    color: teal;
+    line-height: 100px;
+  }
+   .content2 .card img{
+    width: 100%;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+}
+ .content2 .card h3{
+  font-size: 29px;
+  letter-spacing: 0px;
+  color: firebrick;
+  margin-top: 14px;
+}
+.content2 .card h4{
+    font-size: 15px;
+    letter-spacing: 0px;
+    color:slategray;
+    margin-top: 6px;
+  }
+ .content2 .card p{
+  color:crimson;
+  margin: 10px 0;
+  font-size: 13px;
+  margin-top: -2px;
+}
+ .content2 .card.circle img{
+  width: 242px;
+  height: 229px;
+  border-radius: 50%;
+  margin: auto;
+  border: 3px solid #f0f0f0;
+  display: block;
+  object-fit: cover;
+}
+ .content2 .card .circle h3
+{
+    color: teal;
+}
+

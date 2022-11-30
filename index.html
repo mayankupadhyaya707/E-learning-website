@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning Hub</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom css file link -->
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="riview.css">
+    <!-- <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        rel="stylesheet"
+        />
+        <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+        />
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
+        rel="stylesheet"
+        /> -->
+        <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+        ></script>
+        
+        <script src="project.js"></script>
+   
+</head>
+
+<body>
+
+    <!-- Header section start -->
+    <header class="main">
+ 
+        <a href="#" class="logo">
+            <img src="project_image/learning-hub-logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">All Courses</a>
+            <a href="#products">Our Administrator</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact Us</a>
+            
+        </nav>
+
+        
+    </header>
+
+    <!-- header section end -->
+
+
+    <!-- Home section start -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Better Education <br>For a Better World</h3>
+            <p>Today people first search for their <br>queries on the internet rather than<br> looking for books or asking someone <br>hence, this has led to the importance<br> of e-learning in education.</p>
+            <a href="#" class="btn">Get enroll now</a>
+            
+        </div>
+        <div class="form" onsubmit="login()" id="loginForm">
+            <h2 style="color:black;">Login/Sign Up</h2>
+            <!-- <label for="email"></label> -->
+            <input id="email" type="email" name="email" placeholder="Enter Your Email" required>
+            <!-- <label for="password"><b></label> -->
+            <input id="password" type="password" name="password" placeholder="Enter Your Password " required>
+            
+            <button onclick="login()"   type="submit" class="btnn">Login</button>
+            <p class="link" style="color:white;">Don't have an account<br>
+            <button class="sign"   onclick="signUp()">Sign Up</button></p>
+            
+        </div>
+       
+            
+
+    </section>
+
+    <!-- home section end -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+        <h1 class="heading"> About <span>us</span></h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="project_image/virtual-leadership-skills-training-online.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>"I like the dreams of the future better than the history of the past"</h3><br>
+                <h2 style="color:lightgreen ;font-size:20px">Vision:</h2>
+                <p>E-Learning will be nationally recognized as a leader in the application of innovative instructional technologies that facilitate the next generation of teaching and learning.
+                    </p>
+                <h2 style="color:lightgreen;font-size:20px">Mission:</h2>
+                <p>E-Learning  is dedicated to supporting faculty, contributing to teaching excellence, and enhancing student success through: exemplary instructional design, effective 
+                    application and integration of instructional technologies, interactive digital media development,and the deployment of innovative emerging technologies.
+                    
+                    </p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section ends -->
+
+
+    <!-- menu section start -->
+
+    <section class="menu" id="menu">
+
+        <h1 class="heading">Our <span>Courses</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="project_image/WEb-devImage.jpeg.jpg" alt="">
+                <h3>WEB-Development</h3>
+                
+                <a href="#" class="btn">Register Now</a>
+            </div>
+
+            <div class="box">
+                <img src="project_image/DSAIMAGE.png" alt="">
+                <h3>Data Structures and Algorithms</h3>
+                
+                <a href="#" class="btn">Register Now</a>
+            </div>
+
+            <div class="box">
+                <img src="project_image/JAVAIMAGE.png" alt="">
+                <h3>JAVA Tutorial</h3>
+                
+                <a href="#" class="btn">Register Now</a>
+            </div>
+
+            <div class="box">
+                <img src="project_image/DAAIMAGE.jpg" alt="">
+                <h3>Design and Analysis of Algorithm</h3>
+                
+                <a href="#" class="btn">Register Now</a>
+            </div>
+
+            <div class="box">
+                <img src="project_image/CNIMAGE.jpg" alt="">
+                <h3>Computer Networks</h3>
+                
+                <a href="#" class="btn">Register Now</a>
+            </div>
+
+            <div class="box">
+                <img src="project_image/Best_Interview-Questions.png" alt="">
+                <h3>Company Based Coding Question</h3>
+                
+                <a href="#" class="btn">Register Now</a>
+            </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+        <script src="firebase.js"></script> 
+        <script src="project.js"></script>
+
+    </section>
+
+    <!-- menu section end -->
+
+    <!-- product section start -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading">Our <span>Administrator</span> </h1>
+
+        <div class="content2">
+            <div class="card circle">
+                <img class="lazy" src="project_image/47425081.png" alt="">
+                <div class="text">
+                    <h3>Monu Kumar</h3>
+                    <h4>Senior Mentor and Java practice lead</h4>
+                   
+                </div>
+            </div>
+            <div class="card circle">
+                <img class="lazy" src="project_image/shradda.jpg" alt="">
+                <div class="text">
+                    <h3>Shradha Khapra</h3>
+                    <h4>Senior Mentor and Java practice lead</h4>
+                    
+                   
+                </div>
+            </div>
+            <div class="card circle">
+                <img class="lazy" src="project_image/Varun_singla.jpg" alt="">
+                <div class="text">
+                    <h3>Varun Singla</h3>
+                    <h4>5 years teaching experience to GATE Aspirants</h4>
+                   
+                </div>
+            </div>
+
+          </div>
+
+    </section>
+
+
+    <!-- product section end -->
+
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> Student's <span>review</span> </h1>
+
+        <div class="content1">
+            <div class="card circle">
+                <img class="lazy" src="project_image/review1.jpg" alt="">
+                <div class="text">
+                    <h3>Anya</h3>
+                    <h4>B.tech Computer Science</h4>
+                    <i class="fa fa-quote-right"></i>
+                    <p>It would be great to have a larger selection of courses available for in the library for further progression of skills outside of my role.The learning opportunity helps me to become more EQUIPT with the necessary information and practices that I need to be more effective in my work.
+                    </p>
+                </div>
+            </div>
+            <div class="card circle">
+                <img class="lazy" src="project_image/riview4.jpg" alt="">
+                <div class="text">
+                    <h3>Srashti Gautam</h3>
+                    <h4>BCA</h4>
+                    <i class="fa fa-quote-right"></i>
+                    <p>The course was very interesting and thought provoking. I would certainly recommend for any teacher that is now trying to work with their students from within an online forum.Almost everything were good enough to learn about elearning ecology. Thank you!!!</p>
+
+                    </p>
+                </div>
+            </div>
+            <div class="card circle">
+                <img class="lazy" src="project_image/riview3.jpg" alt="">
+                <div class="text">
+                    <h3>Jack</h3>
+                    <h4>MCA</h4>
+                    <i class="fa fa-quote-right"></i>
+                    <p>In a course on e-Learning I expected much more facile, innovative and creative delivery. The experience felt very much like an offline lecture.The content was quite interesting. I felt the value that the instructors and Illinois brought to this topic. 
+                    </p>
+                </div>
+            </div>
+
+          </div>
+</section>
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">contact <span>us</span>  </h1>
+        <p style="font-size: 20px;text-align: center;margin-top: -22px;">Feel free to contact us.</p>
+
+        <div class="row ">
+
+           <div class="address">
+            <div class="image">
+                <img src="project_image/images.jpg" alt="">
+            </div>
+
+           <h3>ADDRESS</h3> 
+           <p style="line-height: 20px;">17km Stone, NH-2, Mathura-Delhi Road P.O. <br>Chaumuhan, Mathura-281 406 (U.P.), INDIA<br>
+            Landmark : 17km From Mathura</p> 
+           </div>
+           
+           <div class="contact1">
+            <div class="image">
+                <img src="project_image/index.png" alt="">
+            </div>
+
+           <h3>CONTACT INFO:</h3>
+           <p style="line-height: 20px;">Phone: +91-5662-250900<br>
+            Mobile: +91-6398231569<br>
+            Email: learninghub.com</p>
+            </div>
+            
+            <div class="website">
+                <div class="image">
+                    <img src="project_image/webiste.jpg" alt="">
+                </div>
+                <h3>WEBSITE</h3>
+                <p style="line-height: 20px;">Website: www.learninghub.com<br>
+                    Facebook: facebook.com/<br>
+                    Blog: blog.learninghub.in</p>
+            </div>
+       
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+
+
+   
+    
+
+   
+
+    <!-- footer-section starts  -->
+
+
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="https://m.facebook.com/login/?refsrc=deprecated" class="fa fa-facebook" id="facbook"></a>
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://mobile.twitter.com/explore&ved=2ahUKEwiF_ajAuLr7AhVLw3MBHWRpBH4QFnoECBAQAQ&usg=AOvVaw3Gwz5IqEwJeNp2RVX1ekVq" class="fa fa-twitter" id="twitter"></a>
+            <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.instagram.com/accounts/login/&ved=2ahUKEwjxi7PNt7r7AhVIJLcAHesMBycQFnoECBcQAQ&usg=AOvVaw0BRCgcMCVNSSLcNcVjPzsz" class="fa fa-instagram" id="instagram"></a>
+            <a href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid=14650114788_asid=127961666300_crid=545833659301_kw=www%20linkedin%20login_d=m_tid=kwd-306824761570_n=g_mt=e_geo=1007825_slid=&mcid=6844056167778418689&cid=&gclid=CjwKCAiAmuKbBhA2EiwAxQnt7-j_PVuxND6d1BhanxAtCtg0fADfcnDSiLT354GFBcq1xbRtfXwG1hoCbo0QAvD_BwE&gclsrc=aw.ds" class="fa fa-linkedin" id="linked"></a>
+            <a href="https://in.pinterest.com/login/" class="fa fa-pinterest" id="pininterest"></a>
+        </div>
+        
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">All Courses</a>
+            <a href="#products">Our Administrator</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact Us</a>
+           
+        </div>
+        <div class="get">
+            <h2>GET IN TOUCH</h2>
+            <P>
+                Address: 17km Stone, NH-2,Mathura-Delhi Road, Mathura<br>
+                281 406 (U.P.) INDIA<br>
+
+                 Phone: +91-5662-250900<br>
+
+                Email: learninghub@gmail.com
+            </P>
+        </div>
+        <div class="copyright">
+          <p>© Copyright 2011-2021 www.learninghub.com. All rights reserved. Developed by learninghub.</p> 
+        </div>
+
+    </section>
+
+
+    <!-- footer section ends -->
+
+    <!-- <script src="script.js"></script> -->
+
+</body>
+
+</html>

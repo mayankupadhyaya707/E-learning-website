@@ -1,0 +1,140 @@
+
+.back
+{
+    background-size: cover;
+    background-position: center;
+    min-height: 62vh;
+    display: flex;
+    align-items: center;
+    background: url("project_image/1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-width: 5px;
+    border-color: darkslategray;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    
+}
+.home h1
+{
+    font-family: Georgia, serif;
+    font-size: 54px;
+    color:white;
+    text-align: center;
+    margin-top: -230px;
+    padding-left: 402px;
+}
+.home h2{
+    font-size: 44px;
+    color:firebrick;
+    padding-top: 143px;
+    padding-left: 518px;
+
+}
+
+.home .intro img{
+    height: 150px;
+    width: 150px;
+    text-align: left;
+}
+.home .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 5rem;
+    
+    padding-top:143px;
+    
+}
+
+.home .box-container .box{
+    padding: 2rem;
+    height: 535px;
+    width:555px;
+    
+    border: var(--border);
+    transition: 0.4s;
+     
+   
+}
+.home .box-container .box1 img{
+    
+    height: 355px;
+    width:375px;
+    border-radius: 23px;
+    
+    
+  
+     
+   
+}
+.home .box-container .box1 {
+    
+    height: 535px;
+    width:521px;
+    padding-left: 118px;
+    padding-top: 48px;
+    transition: 0.4s;
+     
+   
+}
+.home .box-container .box img{
+    height: 535px;
+    width: 553px;
+   padding: 10px;
+
+}
+
+
+.home .box-container .box h3{
+    color:firebrick;
+    font-size: 32px;
+    padding: 1rem 0;
+    text-align: center;
+   margin-top: -549px;
+   margin-bottom: -20px;
+}
+
+.home .box-container .box ul{
+    font-family: Georgia, serif;
+    margin-left: 12px;
+    color:black;
+    font-size: 18px;
+}
+.home .box-container .box p{
+    font-family: Georgia, serif;
+    margin-left: 38px;
+    color:black;
+    font-size: 20px;
+}
+
+.btn
+{
+    
+        border-style: inset;
+        width: 120px;
+        height: 41px;
+        border-radius: 12px;
+        margin-top: 12px;
+        font-weight: 501;
+        cursor: pointer;
+        margin-bottom: 322px;
+        margin-left: 14px;
+        background-color: grey;
+        border-color: black;
+        margin-top: 21px;
+        font-size: 21px;
+        color: yellow;
+    
+}
+ 
+
+
+
+
+
+
+
+
+

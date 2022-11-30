@@ -1,0 +1,22 @@
+.home h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -25px;
+}
+.home img{
+    height: 312px;
+    width: 842px;
+    padding-left: 260px;
+}
+.home button{
+height: 88PX;
+width: 215PX;
+font-size: 22px;
+font-weight: 500;
+border-radius: 50px;
+margin-left: 552px;
+border-style: ridge;
+border-color: brown;
+margin-top: 20px;
+}
